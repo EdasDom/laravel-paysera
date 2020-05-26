@@ -1,0 +1,19 @@
+{
+    "name": "dedo/laravel-paysera",
+    "description": "Paysera laravel",
+    "authors": [
+        {
+            "name": "Dedo Solutions",
+            "email": "dedo.solutions@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dedo\\Paysera\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "hashids/hashids": "^2.0"
+    }
+}
