@@ -82,9 +82,9 @@ class PayseraManager {
                 'country'       => config('paysera.country'),
                 'test'          => config('paysera.test'),
                 'version'       => '1.6',
-                'accepturl'     => config('paysera.accept_route'),
-                'cancelurl'     => config('paysera.cancel_route'),
-                'callbackurl'   => config('paysera.callback_route'),
+                'accepturl'     => route(config('paysera.accept_route')),
+                'cancelurl'     => route(config('paysera.cancel_route')),
+                'callbackurl'   => route(config('paysera.callback_route')),
 
                 'orderid'       => $order_id,
                 'amount'        => intval($amount*100)
